@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    
+}
+
+
+
+.information-column {
+    background-color:black;
+    padding: 40px;
+    color: aliceblue;
+    text-align: center;
+}
+.information-column hr {
+    border: none;
+    border-bottom: 1px solid green;
+    margin-top: 18px;
+}
+
+.information-column img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px green;
+    margin-bottom: 18px;
+
+}
+
+.information-column h3 {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.information-column ul {
+    list-style-type:none
+}
+
+.information-column li {
+    text-align: left;
+    margin: 10px 0;
+   
+
+}
+
+.contact-description a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.contact-description i {
+    color: green;
+   
+
+}
+
+.education-description {
+    margin-top: 32px;
+}
+.education-description p {
+    color: green;
+
+}
+.language-column .percent {
+    height: 6px;
+    background-color: #008000;
+    margin-top: 5px;
+    width: 205px;
+}
+
+.language-column .percent div {
+    height: 6px;
+    background-color: #32cd32;
+}
+
+.language-column .percent.english div {
+    width: 85%;
+}
+
+.language-column .percent.spanish div {
+    width: 25%;
+}
+
+
+.experience-column {
+padding: 40px;
+background-color:aliceblue
+}
+
+.experience-column section {
+    margin-bottom: 30px;
+
+}
+
+.experience-column h2 {
+margin-bottom: 15px;
+}
+
+.experience-column .experience {
+    margin-bottom: 14px;
+}
+
+.experience-column .last-date {
+    text-align: right;
+}
+
+@media(min-width: 992px) {
+    .container {display: flex;}
+    
+    .information-column img {
+        width: 200px;
+        height: 200px;
+    }
+    .experience-column .experience {
+        display: flex;
+    }
+    .experience-date {
+        width: 300px;
+    }
+    
+}
